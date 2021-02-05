@@ -2,11 +2,16 @@
     "name": "GoToPorn",
     "version": "1.0.0",
     "manifest_version": 2,
+    "permissions": [
+        "activeTab",
+        "declarativeContent",
+        "storage"],
     "description": "joke addon",
     "content_scripts": [{
         "matches": ["https://*/*"],
-        "js": [
-            "src/contents.js"
-        ]
-    }]
+        "js": ["src/contents.js"]
+    }],
+    "browser_action": {
+        "default_popup": "html/popup.html"
+    }
 }
