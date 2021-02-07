@@ -2,11 +2,17 @@
   <html>
     <head>
       <meta charset="UTF-8" />
+      <link rel="stylesheet" href="../css/popup.css">
     </head>
     <body>
-      <input type="url" id="url" name="url" placeholder="URL">
-      <label for="rate">[Rate]</label>
-      <input type="range" id="rate" name="range" min="0" max="100" placeholder="Rate">
+      <div>
+          <label for="url">URL</label>
+          <input type="url" id="url" name="url" placeholder="URL">
+      </div>
+      <div>
+          <label for="rate">Rate</label>
+          <input type="range" id="rate" name="range" min="0" max="100" placeholder="Rate">
+      </div>
       <script src="../src/popup.js"></script>
     </body>
 </html>

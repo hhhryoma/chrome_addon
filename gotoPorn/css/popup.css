@@ -1,0 +1,16 @@
+body {
+    height: 55px;
+    width: 200px;
+}
+label {
+    background-color: #bff5f0;
+    vertical-align: middle;
+}
+input {
+    vertical-align: middle;
+}
+
+div {
+    margin-bottom: 10px;
+    border-bottom: dotted 3px rgb(134, 201, 247);
+}
